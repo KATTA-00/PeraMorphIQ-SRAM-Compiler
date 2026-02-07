@@ -124,8 +124,6 @@ class bitcell_array(bitcell_base_array):
         """Gets the spice name of the target bitcell."""
         # Check if the cell exists in this array
         if (row, col) not in self.cell_inst:
-            from openram import debug
-            from openram.globals import OPTS
             # For multi-bank configs with analytical delay, return a placeholder
             if OPTS.analytical_delay:
                 debug.warning("Cell ({}, {}) not found in array (likely multi-bank config). Using placeholder for analytical delay.".format(row, col))
