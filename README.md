@@ -530,8 +530,8 @@ Copyright (c) 2016-2023 Regents of the University of California, Santa Cruz
 
 **PeraCom Neuromorphic Research Group**
 
-- GitHub: [YourGitHubOrg](https://github.com/YourOrg)
-- Website: [Your Website](https://yourwebsite.com)
+- GitHub: [PeraMorphIQ - PeraCom Neuromorphic Research Group](https://github.com/PeraMorphIQ)
+- Website: [PeraMorphIQ Neuromorphic Research Group](https://peramorphiq.ce.pdn.ac.lk)
 - Issues: [GitHub Issues](https://github.com/YourOrg/PeraMorphIQ-SRAM-Compiler/issues)
 
 ---
