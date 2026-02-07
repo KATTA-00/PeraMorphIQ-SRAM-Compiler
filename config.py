@@ -18,7 +18,7 @@
 
 # Word size: Number of bits per word (data width)
 # Common values: 8, 16, 32, 64, 128, 256
-word_size = 32
+word_size = 16
 
 # Number of words: Depth of the SRAM (number of addressable locations)
 # Must be a power of 2: 32, 64, 128, 256, 512, 1024, 2048, 4096, etc.
