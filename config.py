@@ -67,19 +67,6 @@ num_threads = 4
 # trim_netlist = True            # Remove unused subcircuits
 
 # ==============================================================================
-# Post-Processing Configuration
-# ==============================================================================
-
-# Technology library path for Synopsys tools (NDM generation)
-# Update this path to match your technology library location
-tech_lib_path = "/path/to/your/tech/lib/NangateOpenCellLibrary.ndm"
-
-# PVT corners to process during post-generation
-# Format: <corner>_<voltage>_<temp>
-# Example: "TT_1p0V_25C FF_1p1V_125C SS_0p9V_m40C"
-pvt_corners = "TT_1p0V_25C"
-
-# ==============================================================================
 # Auto-Generated Settings (Do Not Edit)
 # ==============================================================================
 
