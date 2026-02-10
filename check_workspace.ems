@@ -1,16 +1,20 @@
 <Database>
 versionNumber:2
 Name/home/user26/PeraMorphIQ-SRAM-Compiler/check_workspace.ems
-Creation TimeTue Feb 10 17:58:06 2026
-Modified TimeTue Feb 10 17:58:06 2026
+Creation TimeTue Feb 10 18:02:47 2026
+Modified TimeTue Feb 10 18:02:47 2026
 Design Name
 Library Name
 </Database>
 <RuleCount>
-LM-0101
+LM-0051
+LM-0341
+LM-0541
 </RuleCount>
 <UserDefinedRules>
 </UserDefinedRules>
 <Messages>
-LM-010Errorpara1check. You must have at least one physical library.10
+LM-005Information
+LM-054Informationpara1sram_32b_2048_1rw_freepdk45_sram_32x2048_1v10
+LM-034Informationpara1110para210para31 with a design view (1 had ports reordered);10
 </Messages>

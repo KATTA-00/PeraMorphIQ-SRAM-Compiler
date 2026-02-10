@@ -39,19 +39,11 @@ if {![file exists "outputs/db/sram_32b_2048_1rw_freepdk45_sram_32x2048_1v_TT_1p0
 } else {
     puts "SKIPPING: outputs/db/sram_32b_2048_1rw_freepdk45_sram_32x2048_1v_TT_1p0V_25C.db already exists"
 }
-Processing: TT_1p0V_25C
-Reading '/home/user26/PeraMorphIQ-SRAM-Compiler/outputs/libs/sram_32b_2048_1rw_freepdk45_sram_32x2048_1v_TT_1p0V_25C.lib' ...
-Warning: Line 1, The 'internal_power_calculation' attribute in char_config group is required for NLPM library. 
-	No default can be applied to this attribute. (LBDB-366)
-Information: Line 74, Cell 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v', The cell 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v' contiains memory/memory_read/memory_write groups which are deprecated, use the is_memory_cell attribute instead. (LIBG-280)
-Technology library 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v_TT_1p0V_25C_lib' read successfully
-Wrote the 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v_TT_1p0V_25C_lib' library to '/home/user26/PeraMorphIQ-SRAM-Compiler/outputs/db/sram_32b_2048_1rw_freepdk45_sram_32x2048_1v_TT_1p0V_25C.db' successfully
-Removing library 'sram_32b_2048_1rw_freepdk45_sram_32x2048_1v_TT_1p0V_25C_lib'
-SUCCESS: Created outputs/db/sram_32b_2048_1rw_freepdk45_sram_32x2048_1v_TT_1p0V_25C.db
+SKIPPING: outputs/db/sram_32b_2048_1rw_freepdk45_sram_32x2048_1v_TT_1p0V_25C.db already exists
 exit
-Maximum memory usage for this session: 101.08 MB
-CPU usage for this session:      2 seconds (  0.00 hours)
-Elapsed time for this session:      5 seconds (  0.00 hours)
+Maximum memory usage for this session: 96.62 MB
+CPU usage for this session:      1 seconds (  0.00 hours)
+Elapsed time for this session:      1 seconds (  0.00 hours)
 Thank you for using Library Compiler.
 
 Thank you...
