@@ -62,27 +62,6 @@ group_libs
 ...Created 1 lib groups
 ...Created sub-workspace sram_32b_2048_1rw_freepdk45_sram_32x2048_1v_TT_1p0V_25C_lib with type normal: 1 logical lib, 1 physical lib, 0 scaling groups.
 ...Created 1 sub-workspace
-check_workspace
-Warning: The command check_workspace (in the EXPLORATION flow) is deprecated. Use process_workspaces. (LMUI-050)
-
-Checking workspace sram_32b_2048_1rw_freepdk45_sram_32x2048_1v_TT_1p0V_25C_lib ...
-Checking libraries...
-Information: Only one logical library loaded - internal checks only (LM-005)
-Using sram_32b_2048_1rw_freepdk45_sram_32x2048_1v_TT_1p0V_25C_lib as the base library.
-Warning: Direction 'inout' for port vdd on sram_32b_2048_1rw_freepdk45_sram_32x2048_1v_TT_1p0V_25C_lib/sram_32b_2048_1rw_freepdk45_sram_32x2048_1v/design
-	does not match expected value 'in' from sram_32b_2048_1rw_freepdk45_sram_32x2048_1v_TT_1p0V_25C_lib/sram_32b_2048_1rw_freepdk45_sram_32x2048_1v/timing (NDM-032w)
-Warning: Direction 'inout' for port gnd on sram_32b_2048_1rw_freepdk45_sram_32x2048_1v_TT_1p0V_25C_lib/sram_32b_2048_1rw_freepdk45_sram_32x2048_1v/design
-	does not match expected value 'in' from sram_32b_2048_1rw_freepdk45_sram_32x2048_1v_TT_1p0V_25C_lib/sram_32b_2048_1rw_freepdk45_sram_32x2048_1v/timing (NDM-032w)
-Information: Fixed direction mismatches for block sram_32b_2048_1rw_freepdk45_sram_32x2048_1v (LM-054)
-Information: Combined 1 physical design:1 with a design view (1 had ports reordered); (LM-034)
-... creating frames for sram_32b_2048_1rw_freepdk45_sram_32x2048_1v_TT_1p0V_25C_lib
-Information: Block sram_32b_2048_1rw_freepdk45_sram_32x2048_1v.frame, the feature of blocking core area is set on specific layers. New zero-spacing routing blockages and RC metal are added on layers: metal1 metal2 metal3 metal4. (FRAM-045)
-Information: Block sram_32b_2048_1rw_freepdk45_sram_32x2048_1v.frame, the feature of blockage trimming by pin is set to 'touch' on specific layers. All metal shapes and routing blockages touch pins in design view are trimmed on layers: metal1 metal2 metal3 metal4 metal5 metal6 metal7 metal8 metal9 metal10. (FRAM-046)
-... created 1 frames
-
-Workspace check succeeded!
-
-Warning: EMS database "check_workspace.ems" already exists, over-writing it. (EMS-040)
 process_workspaces
 
 Checking workspace sram_32b_2048_1rw_freepdk45_sram_32x2048_1v_TT_1p0V_25C_lib ...
