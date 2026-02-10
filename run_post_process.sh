@@ -28,10 +28,10 @@ set -e  # Exit on error
 # =============================================================================
 
 # SRAM base name (without corner/voltage suffix)
-SRAM_NAME="sram_16b_32_1rw_freepdk45_sram_16x32_1v"
+SRAM_NAME="sram_32b_2048_1rw_freepdk45_sram_32x2048_1v"
 
 # Technology library path (for NDM generation)
-TECH_LIB="/path/to/your/tech/lib/NangateOpenCellLibrary.ndm"
+TECH_LIB="/tech/45nm/nangate45nm_ndm-main/Nangate.ndm"
 
 # PVT corners to process (space-separated)
 # Format: <corner>_<voltage>_<temp>
