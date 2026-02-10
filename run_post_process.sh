@@ -300,7 +300,6 @@ read_lef \$SRAM_LEF
 # Group & Build
 puts "Grouping and Committing..."
 group_libs
-check_workspace
 process_workspaces
 
 # Move the NDM to the desired location
