@@ -23,5 +23,5 @@ OpenRAM/.git/
 *.gds
 *.lef
 *.ndm
-# outputs/
+outputs/
 
